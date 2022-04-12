@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>TO DO LIST</h1>
+    <!-- <form name="searchform">
+        <input name="search" placeholder="Search for a To-Do Item">
+        <button id="searchButton" type="submit" onsubmit=""><img height="10px" src="./Pictures/magnifying-glasses-icon-png-magnifying-glass-icon-free-sv-11563036016kdodmfkm7t.png"></button>
+    </form>
+    <br> -->
+    <form name="todoform">
+        <h3>Create a new Task Here:</h3>
+        <label for="title">Task:</label>
+        <input name="title" type="text" placeholder="Task Name Here" required/>
+        <br>
+        <label for="price">Price:</label>
+        <input name="price" type="number" placeholder="Price" required/>
+        <br>
+        <label for="description">Description:</label>
+        <input name="description" type="text" placeholder="Description" required/>
+        <br>
+        <label for="imgUrl">Image:</label>
+        <input name="imgUrl" id="image_input" type="url" placeholder="Image" accept="image/png, image/jpg" required/>
+        <br>
+        <label for="title">Task:</label>
+        <button type="submit">Submit</button>
+    </form>
+    <ul name="list" id="list"></ul>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
